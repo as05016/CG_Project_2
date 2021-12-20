@@ -448,9 +448,13 @@ https://templatemo.com/tm-571-hexashop
 					<h2>Acceleration Structure</h2>
 					<br />
 					<p class="w-75 m-auto">
-						We have implemented Uniform Grid as an acceleration structure. To test it,
+						We have implemented Regular Grid as an acceleration structure. To test it,
 						we rendered images with different number of spheres, and compared the
-						timings before and after implementing the acceleration structure.
+						timings before and after implementing the acceleration structure. To use
+						acceleration, add all the objects to the grid using the add_object()
+						function, use the setup_cells() function of the grid, and then add the grid
+						to the world using the add_geometry() function. To disable acceleration,
+						normally add all objects to world using add_geometry() function.
 					</p>
 				</div>
 			</div>
