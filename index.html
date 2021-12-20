@@ -1,152 +1,1129 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+			rel="stylesheet"
+		/>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hexashop Ecommerce HTML CSS Template</title>
 
-	<title>Module 3 Solution</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-</head>
+		<!-- Additional CSS Files -->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
 
-<body>
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Food, LLC</a>
-			<button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse"
-				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item dropdown">
-						<a class="dropdown-item d-block d-sm-none" href="#chicken" id="navbarDropdown"
-							role="button">Chicken
-						</a>
-						<a class="dropdown-item d-block d-sm-none" href="#beef" id="navbarDropdown" role="button">Beef
-						</a>
-						<a class="dropdown-item d-block d-sm-none" href="#sushi" id="navbarDropdown" role="button">Sushi
-						</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-	<h1 class="text-center">Our Menu</h1>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-				<h2 class="text-centre" id="chicken">Chicken</h2>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
+		<link rel="stylesheet" href="assets/css/templatemo-hexashop.css" />
+
+		<link rel="stylesheet" href="assets/css/owl-carousel.css" />
+
+		<link rel="stylesheet" href="assets/css/lightbox.css" />
+		<!--
+
+TemplateMo 571 Hexashop
+
+https://templatemo.com/tm-571-hexashop
+
+-->
+	</head>
+
+	<body>
+		<!-- ***** Preloader Start ***** -->
+		<div id="preloader">
+			<div class="jumper">
+				<div></div>
+				<div></div>
+				<div></div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-				<h2 class="text-centre" id="beef">Beef</h2>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
+		<!-- ***** Preloader End ***** -->
+
+		<!-- ***** Header Area Start ***** -->
+		<header class="header-area header-sticky">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav class="main-nav">
+							<!-- ***** Logo Start ***** -->
+
+							<div>
+								<span class="scroll-to-section">
+									<a href="#top">
+										<span
+											style="
+												display: inline-block;
+												font-size: 2rem;
+												margin-top: 19px;
+												color: rgb(233, 40, 40);
+											"
+											>The Shaders</span
+										>
+									</a>
+								</span>
+								<!-- ***** Logo End ***** -->
+								<!-- ***** Menu Start ***** -->
+								<ul class="nav">
+									<li class="scroll-to-section">
+										<a href="#top" class="active">Home</a>
+									</li>
+									<li class="scroll-to-section"><a href="#men">Concept</a></li>
+									<li class="scroll-to-section"><a href="#women">Scene</a></li>
+									<li class="scroll-to-section">
+										<a href="#kids">Acceleration Structures</a>
+									</li>
+									<li class="scroll-to-section">
+										<a href="#explore">Code Features</a>
+									</li>
+									<li class="scroll-to-section">
+										<a href="#image">Image Features</a>
+									</li>
+								</ul>
+							</div>
+
+							<a class="menu-trigger">
+								<span>Menu</span>
+							</a>
+							<!-- ***** Menu End ***** -->
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ***** Header Area End ***** -->
+
+		<!-- ***** Main Banner Area Start ***** -->
+		<div class="main-banner" id="top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="left-content">
+							<div class="thumb">
+								<div class="inner-content">
+									<h4>Team Shader</h4>
+									<span>
+										Welcome to our showcase for CS 440 - Computer Graphics.
+									</span>
+									<span> We are the Shaders and our members are..... </span>
+								</div>
+								<img src="assets/images/left-banner-image.png" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="right-content">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="right-first-image">
+										<div class="thumb">
+											<!-- <div class="inner-content">
+												<h4>Women</h4>
+												<span>Best Clothes For Women</span>
+											</div> -->
+											<div class="hover-content">
+												<div class="inner">
+													<h4>Batool Ahmed</h4>
+													<p>CS 2023 - Habib University</p>
+													<div class="main-border-button">
+														<a href="#">Contact her</a>
+													</div>
+												</div>
+											</div>
+											<img src="assets/images/baner-right-image-01.jpg" />
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="right-first-image">
+										<div class="thumb">
+											<!-- <div class="inner-content">
+												<h4>Men</h4>
+												<span>Best Clothes For Men</span>
+											</div> -->
+											<div class="hover-content">
+												<div class="inner">
+													<h4>Altaf Sheikh</h4>
+													<p>CS 2022 - Habib University</p>
+													<div class="main-border-button">
+														<a href="#">Contact him</a>
+													</div>
+												</div>
+											</div>
+											<img src="assets/images/baner-right-image-02.jpg" />
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="right-first-image">
+										<div class="thumb">
+											<!-- <div class="inner-content">
+												<h4>Kids</h4>
+												<span>Best Clothes For Kids</span>
+											</div> -->
+											<div class="hover-content">
+												<div class="inner">
+													<h4>Maaaz Shaheen</h4>
+													<p>Cs 2022 - Habib University</p>
+													<div class="main-border-button">
+														<a href="#">Contact him</a>
+													</div>
+												</div>
+											</div>
+											<img src="assets/images/baner-right-image-03.jpg" />
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="right-first-image">
+										<div class="thumb">
+											<!-- <div class="inner-content">
+												<h4>Accessories</h4>
+												<span>Best Trend Accessories</span>
+											</div> -->
+											<div class="hover-content">
+												<div class="inner">
+													<h4>Haania Siddiqui</h4>
+													<p>CS 2023 - Habib University</p>
+													<div class="main-border-button">
+														<a href="#">Contact her</a>
+													</div>
+												</div>
+											</div>
+											<img src="assets/images/baner-right-image-04.jpg" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-				<h2 class="text-centre" id="sushi">Sushi</h2>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
-				ducimus maiores repellat! Nobis iste, rerum, sequi possimus commodi dolorum nulla nesciunt suscipit ad
-				veritatis labore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio accusamus
-				expedita omnis quam
+		<!-- ***** Main Banner Area End ***** -->
+
+		<!-- ***** Men Area Starts ***** -->
+		<section class="section section-black" id="men">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="section-heading">
+							<h2>Our Concept</h2>
+
+							<!-- <span
+								>Details to details is what makes Hexashop different from the other
+								themes.</span
+							> -->
+						</div>
+						<p>
+							When we started out this project, we had fancy thoughts of chandeliers
+							and castles in mind. But all fantasies must eventually end, and our
+							dreams shattered by the awakening to reality.
+						</p>
+						<br />
+						<p>
+							As dread started to set in that the project might not be completed on
+							time, we saw within our dread an oppertunity. An oppertunity to seize
+							that dread and share it with the world. Hence, our project model of the
+							horrifying and the macabre, born of the fear each student faces when
+							looking despair in the eye, was born.
+						</p>
+						<br />
+						<p>
+							However, the intent behind our model is not to scare. Carrie Fisher, who
+							played Princess Leia in Star Wars, once said "Be afraid and do it
+							anyway". And is that not where true courage is tested? We hope this
+							model inspires you to face your fears, your remaining deadlines, for as
+							we used our fear to make this model for the project, we hope you will
+							use your fear to face yours!
+						</p>
+					</div>
+					<div class="col-lg-6 text-center section-black-image">
+						<img src="assets/images/left-banner-image.png" alt="" />
+					</div>
+				</div>
 			</div>
-        </div>
-        
-        <script>function testing(){
-            console.log("clicked")
-	    fetch('https://demo-ipg.ctdev.comtrust.ae:2443/', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json',
-            },
-            body: JSON.stringify({
-            "Registration" : {
-             "Currency": "AED",
-             "ReturnPath": "https://localhost:3000/home",
-             "TransactionHint": "CPT:Y;VCC:Y;",
-             "OrderID": "7210055701315195",
-             "Store": "0000",
-             "Terminal": "0000",
-             "Channel": "Web",
-             "Amount": "2.00",
-             "Customer": "Demo Merchant",
-             "OrderName": "Paybill",
-             "UserName":"Demo_fY9c",
-             "Password":"Comtrust@20182018"
-             }
-            })
-          })
-        .then((res) => {
-		    console.log("@@@@")
-            console.log(res)
-        })
-        .catch(err => console.log(err))
-    }
-		console.log("fetch done")
-        }</script>
-        <div>
-            <button id = "test" onclick="testing()">
-		CLICKED
-            </button>
-        </div>
+			<!-- <div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="men-item-carousel">
+							<div class="owl-men-item owl-carousel">
+								<div class="item">
+									<div class="thumb">
+										<div class="hover-content">
+											<ul>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-eye"></i
+													></a>
+												</li>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-star"></i
+													></a>
+												</li>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-shopping-cart"></i
+													></a>
+												</li>
+											</ul>
+										</div>
+										<img src="assets/images/men-01.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>Classic Spring</h4>
+										<span>$120.00</span>
+										<ul class="stars">
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<div class="hover-content">
+											<ul>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-eye"></i
+													></a>
+												</li>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-star"></i
+													></a>
+												</li>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-shopping-cart"></i
+													></a>
+												</li>
+											</ul>
+										</div>
+										<img src="assets/images/men-02.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>Air Force 1 X</h4>
+										<span>$90.00</span>
+										<ul class="stars">
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<div class="hover-content">
+											<ul>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-eye"></i
+													></a>
+												</li>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-star"></i
+													></a>
+												</li>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-shopping-cart"></i
+													></a>
+												</li>
+											</ul>
+										</div>
+										<img src="assets/images/men-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>Love Nana ‘20</h4>
+										<span>$150.00</span>
+										<ul class="stars">
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<div class="hover-content">
+											<ul>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-eye"></i
+													></a>
+												</li>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-star"></i
+													></a>
+												</li>
+												<li>
+													<a href="single-product.html"
+														><i class="fa fa-shopping-cart"></i
+													></a>
+												</li>
+											</ul>
+										</div>
+										<img src="assets/images/men-01.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>Classic Spring</h4>
+										<span>$120.00</span>
+										<ul class="stars">
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+											<li><i class="fa fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</section>
+		<!-- ***** Men Area Ends ***** -->
 
-        
-    </div>
-    
-	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-</body>
+		<!-- ***** Women Area Starts ***** -->
+		<section class="section" id="women">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="container">
+							<img src="assets/images/left-banner-image.png" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="section-heading">
+							<h2>Our Scene</h2>
+						</div>
+						<p>Our scene consists off</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<!-- ***** Women Area Ends ***** -->
+
+		<!-- ***** Kids Area Starts ***** -->
+		<section class="section" id="kids">
+			<div class="container text-center">
+				<div class="section-heading w-100">
+					<h2>Acceleration Structure</h2>
+					<br />
+					<p class="w-75 m-auto">
+						We have implemented Uniform Grid as an acceleration structure. To test it,
+						we rendered images with different number of spheres, and compared the
+						timings before and after implementing the acceleration structure.
+					</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<h5 class="mb-4">Without Grid</h5>
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th scope="col">Resolution</th>
+									<th scope="col">Primitives</th>
+									<th scope="col">Time taken (secs)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>480 x 360</td>
+									<td>100</td>
+									<td>Otto</td>
+								</tr>
+								<tr>
+									<td>480 x 360</td>
+									<td>1000</td>
+									<td>Thornton</td>
+								</tr>
+								<tr>
+									<td>480 x 360</td>
+									<td>10000</td>
+									<td>the Bird</td>
+								</tr>
+								<tr>
+									<td>480 x 360</td>
+									<td>100000</td>
+									<td>&GreaterGreater; 10 mins</td>
+								</tr>
+								<tr>
+									<td>1920 x 1080</td>
+									<td>100</td>
+									<td>Otto</td>
+								</tr>
+								<tr>
+									<td>1920 x 1080</td>
+									<td>1000</td>
+									<td>Thornton</td>
+								</tr>
+								<tr>
+									<td>1920 x 1080</td>
+									<td>10000</td>
+									<td>the Bird</td>
+								</tr>
+								<tr>
+									<td>1920 x 1080</td>
+									<td>100000</td>
+									<td>&GreaterGreater; 10 mins</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-lg-6 text-center">
+						<h5 class="mb-4">With Grid</h5>
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th scope="col">Resolution</th>
+									<th scope="col">Primitives</th>
+									<th scope="col">Time taken (secs)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>480 x 360</td>
+									<td>100</td>
+									<td>Otto</td>
+								</tr>
+								<tr>
+									<td>480 x 360</td>
+									<td>1000</td>
+									<td>Thornton</td>
+								</tr>
+								<tr>
+									<td>480 x 360</td>
+									<td>10000</td>
+									<td>the Bird</td>
+								</tr>
+								<tr>
+									<td>480 x 360</td>
+									<td>100000</td>
+									<td>&GreaterGreater; 10 mins</td>
+								</tr>
+								<tr>
+									<td>480 x 360</td>
+									<td>1 Million</td>
+									<td>&GreaterGreater; 10 mins</td>
+								</tr>
+
+								<tr>
+									<td>1920 x 1080</td>
+									<td>100</td>
+									<td>Otto</td>
+								</tr>
+								<tr>
+									<td>1920 x 1080</td>
+									<td>1000</td>
+									<td>Thornton</td>
+								</tr>
+								<tr>
+									<td>1920 x 1080</td>
+									<td>10000</td>
+									<td>the Bird</td>
+								</tr>
+								<tr>
+									<td>1920 x 1080</td>
+									<td>100000</td>
+									<td>&GreaterGreater; 10 mins</td>
+								</tr>
+								<tr>
+									<td>1920 x 1080</td>
+									<td>1 Million</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="women-item-carousel">
+							<div class="owl-women-item owl-carousel">
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-01.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>100 Primitives</h4>
+										<span>480 x 360</span>
+										<ul class="stars">
+											With Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-02.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>1000 Primitives</h4>
+										<span>480 x 360</span>
+										<ul class="stars">
+											With Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>10000 Primitives</h4>
+										<span>480 x 360</span>
+										<ul class="stars">
+											With Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>100000 Primitives</h4>
+										<span>480 x 360</span>
+										<ul class="stars">
+											With Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-01.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>100 Primitives</h4>
+										<span>1920 x 1080</span>
+										<ul class="stars">
+											With Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-02.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>1000 Primitives</h4>
+										<span>1920 x 1080</span>
+										<ul class="stars">
+											With Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>10000 Primitives</h4>
+										<span>1920 x 1080</span>
+										<ul class="stars">
+											With Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>100000 Primitives</h4>
+										<span>1920 x 1080</span>
+										<ul class="stars">
+											With Grid
+										</ul>
+									</div>
+								</div>
+
+								<!-- WITHOUT GRID -->
+
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-01.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>100 Primitives</h4>
+										<span>480 x 360</span>
+										<ul class="stars">
+											No Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-02.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>1000 Primitives</h4>
+										<span>480 x 360</span>
+										<ul class="stars">
+											No Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>10000 Primitives</h4>
+										<span>480 x 360</span>
+										<ul class="stars">
+											No Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>100000 Primitives</h4>
+										<span>480 x 360</span>
+										<ul class="stars">
+											No Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-01.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>100 Primitives</h4>
+										<span>1920 x 1080</span>
+										<ul class="stars">
+											No Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-02.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>1000 Primitives</h4>
+										<span>1920 x 1080</span>
+										<ul class="stars">
+											No Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>10000 Primitives</h4>
+										<span>1920 x 1080</span>
+										<ul class="stars">
+											No Grid
+										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="thumb">
+										<img src="assets/images/women-03.jpg" alt="" />
+									</div>
+									<div class="down-content">
+										<h4>100000 Primitives</h4>
+										<span>1920 x 1080</span>
+										<ul class="stars">
+											No Grid
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="kid-item-carousel">
+							<div class="owl-kid-item owl-carousel"></div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</section>
+		<!--
+		<section class="section" id="code">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="section-heading">
+							<h2>Code Features</h2>
+							<span
+								>Details to details is what makes Hexashop different from the other
+								themes.</span
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="kid-item-carousel">
+							<div class="owl-kid-item owl-carousel"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<section class="section" id="image">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="section-heading">
+							<h2>Image Features</h2>
+							<span
+								>Details to details is what makes Hexashop different from the other
+								themes.</span
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="kid-item-carousel">
+							<div class="owl-kid-item owl-carousel"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Kids Area Ends ***** -->
+
+		<!-- ***** Explore Area Starts ***** -->
+		<section class="section" id="explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="left-content mb-5">
+							<h2>Code Features</h2>
+							<span>Following are listed our implemented features in the code.</span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="right-content">
+							<div class="row">
+								<div class="col-lg-3">
+									<div class="leather">
+										<h4>Leather Bags</h4>
+										<span>Latest Collection</span>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="leather">
+										<h4>Leather Bags</h4>
+										<span>Latest Collection</span>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="leather">
+										<h4>Leather Bags</h4>
+										<span>Latest Collection</span>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="leather">
+										<h4>Leather Bags</h4>
+										<span>Latest Collection</span>
+									</div>
+								</div>
+
+								<div class="col-lg-3">
+									<div class="types">
+										<h4>Different Types</h4>
+										<span>Over 304 Products</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Explore Area Ends ***** -->
+
+		<!-- ***** Social Area Starts ***** -->
+		<section class="section" id="social">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-heading">
+							<h2>Social Media</h2>
+							<span
+								>Details to details is what makes Hexashop different from the other
+								themes.</span
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row images">
+					<div class="col-2">
+						<div class="thumb">
+							<div class="icon">
+								<a href="http://instagram.com">
+									<h6>Fashion</h6>
+									<i class="fa fa-instagram"></i>
+								</a>
+							</div>
+							<img src="assets/images/instagram-01.jpg" alt="" />
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="thumb">
+							<div class="icon">
+								<a href="http://instagram.com">
+									<h6>New</h6>
+									<i class="fa fa-instagram"></i>
+								</a>
+							</div>
+							<img src="assets/images/instagram-02.jpg" alt="" />
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="thumb">
+							<div class="icon">
+								<a href="http://instagram.com">
+									<h6>Brand</h6>
+									<i class="fa fa-instagram"></i>
+								</a>
+							</div>
+							<img src="assets/images/instagram-03.jpg" alt="" />
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="thumb">
+							<div class="icon">
+								<a href="http://instagram.com">
+									<h6>Makeup</h6>
+									<i class="fa fa-instagram"></i>
+								</a>
+							</div>
+							<img src="assets/images/instagram-04.jpg" alt="" />
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="thumb">
+							<div class="icon">
+								<a href="http://instagram.com">
+									<h6>Leather</h6>
+									<i class="fa fa-instagram"></i>
+								</a>
+							</div>
+							<img src="assets/images/instagram-05.jpg" alt="" />
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="thumb">
+							<div class="icon">
+								<a href="http://instagram.com">
+									<h6>Bag</h6>
+									<i class="fa fa-instagram"></i>
+								</a>
+							</div>
+							<img src="assets/images/instagram-06.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Social Area Ends ***** -->
+
+		<section class="section mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-heading mb-4">
+							<h2>Acknowledgements</h2>
+						</div>
+						<p>
+							We would like to thank the following sources for their immeasureable
+							help and usefulness during the project:
+						</p>
+						<div class="col-lg-6 mt-2">
+							<p>1. Kevin Suffern - RayTracing from the Ground Up</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ***** Subscribe Area Starts ***** -->
+		<div class="subscribe">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="section-heading">
+							<h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
+							<span
+								>Details to details is what makes Hexashop different from the other
+								themes.</span
+							>
+						</div>
+						<form id="subscribe" action="" method="get">
+							<div class="row">
+								<div class="col-lg-5">
+									<fieldset>
+										<input
+											name="name"
+											type="text"
+											id="name"
+											placeholder="Your Name"
+											required=""
+										/>
+									</fieldset>
+								</div>
+								<div class="col-lg-5">
+									<fieldset>
+										<input
+											name="email"
+											type="text"
+											id="email"
+											pattern="[^ @]*@[^ @]*"
+											placeholder="Your Email Address"
+											required=""
+										/>
+									</fieldset>
+								</div>
+								<div class="col-lg-2">
+									<fieldset>
+										<button
+											type="submit"
+											id="form-submit"
+											class="main-dark-button"
+										>
+											<i class="fa fa-paper-plane"></i>
+										</button>
+									</fieldset>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-4">
+						<div class="row">
+							<div class="col-6">
+								<ul>
+									<li>
+										Store Location:<br /><span
+											>Sunny Isles Beach, FL 33160, United States</span
+										>
+									</li>
+									<li>Phone:<br /><span>010-020-0340</span></li>
+									<li>Office Location:<br /><span>North Miami Beach</span></li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<ul>
+									<li>Work Hours:<br /><span>07:30 AM - 9:30 PM Daily</span></li>
+									<li>Email:<br /><span>info@company.com</span></li>
+									<li>
+										Social Media:<br /><span
+											><a href="#">Facebook</a>, <a href="#">Instagram</a>,
+											<a href="#">Behance</a>, <a href="#">Linkedin</a></span
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ***** Subscribe Area Ends ***** -->
+
+		<!-- ***** Footer Start ***** -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="under-footer">
+							<p>
+								Design:
+								<a
+									href="https://templatemo.com"
+									target="_parent"
+									title="free css templates"
+									>TemplateMo</a
+								>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery -->
+		<script src="assets/js/jquery-2.1.0.min.js"></script>
+
+		<!-- Bootstrap -->
+		<script src="assets/js/popper.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<!-- Plugins -->
+		<script src="assets/js/owl-carousel.js"></script>
+		<script src="assets/js/accordions.js"></script>
+		<script src="assets/js/datepicker.js"></script>
+		<script src="assets/js/scrollreveal.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/imgfix.min.js"></script>
+		<script src="assets/js/slick.js"></script>
+		<script src="assets/js/lightbox.js"></script>
+		<script src="assets/js/isotope.js"></script>
+
+		<!-- Global Init -->
+		<script src="assets/js/custom.js"></script>
+
+		<script>
+			$(function () {
+				var selectedClass = "";
+				$("p").click(function () {
+					selectedClass = $(this).attr("data-rel");
+					$("#portfolio").fadeTo(50, 0.1);
+					$("#portfolio div")
+						.not("." + selectedClass)
+						.fadeOut();
+					setTimeout(function () {
+						$("." + selectedClass).fadeIn();
+						$("#portfolio").fadeTo(50, 1);
+					}, 500);
+				});
+			});
+		</script>
+	</body>
 </html>
